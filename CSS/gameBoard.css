@@ -1,0 +1,92 @@
+body {
+	background-image:url("../images/frame2.png");
+	}
+.boardCell {
+	border: 1px solid lime;
+	height: 100px;
+	width: 100px;
+	color: lime;
+	font-family: courier new;
+	font-size: 40px;
+	text-align: center;
+	}
+.boardCellHighlight {
+	border: 1px solid lime;
+	height: 100px;
+	width: 100px;
+	color: lime;
+	font-family: courier new;
+	font-size: 46px;
+	text-align: center;
+	}
+.sumCell {
+	color: lime;
+	font-family: courier new;
+	font-size: 20px;
+	text-decoration: underline;
+	position: fixed;
+	}
+.okButton {
+	position:absolute;
+	top:52%;
+	left:42.2%;
+	font-size: 13px;
+	font-weight:bold;
+	background: url("../images/okBG.png");
+	border-style:none;
+	width:70px;
+	height:25px;
+	color:lime;
+	font-family: courier new;
+	}
+.floatText {
+	text-align:center;
+	background-color:black;
+	opacity:.91;
+	z-index:1;
+	height:350px;
+	width:500px;
+	position: fixed;
+	left: 173px;
+	top: 170px;
+	}
+#winText1 {
+	position:absolute;
+	top:40%;
+	left:11%;
+}
+#middler {
+	position:absolute;
+	top:25%;
+	}
+#board {
+	border-collapse:collapse;
+	position: fixed;
+	left: 260px;
+	top: 175px;
+	border: 5px solid lime;
+	}
+#sum1 {
+	left: 565px;
+	top: 195px;
+}
+#sum2 {
+	left: 565px;
+	top: 295px;
+}
+#sum3 {
+	left: 565px;
+	top: 395px;
+}
+#sum4 {
+	left: 285px;
+	top: 463px;
+}
+#sum5 {
+	left: 385px;
+	top: 463px;
+}
+#sum6 {
+	left: 485px;
+	top: 463px;
+}

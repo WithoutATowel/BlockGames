@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLOCKGAMES</title>
+<link rel="shortcut icon" type="image/png" href="http://commondatastorage.googleapis.com/mps-service/brettspencer/bgicon.png">
+<link rel="stylesheet" type="text/css" href="CSS/game.css" />
+<link rel="stylesheet" type="text/css" href="CSS/signUp.css" />
+<script type="text/javascript" src="JS/signUp.js"></script>
+<script type="text/javascript" src="JS/gameScripts.js"></script>
+</head>
+<body>
+<img id="bGames" src="images/blockGames.png">
+<form name="signUp" action="http://www.google.com" method="get" onSubmit="return validateForm()">
+<table class="greenText" id="signUpForm">
+<tr><th>First:</th><td><input type="text" class="formInput" id="first" name="first"><span id="f1" class="hidden">*</span></td></tr>
+<tr><th>Last:</th><td><input type="text" class="formInput" id="last" name="last"><span id="f2" class="hidden">*</span></td></tr>
+<tr><th>Email:</th><td><input type="text" class="formInput" id="email" name="email"><span id="f3" class="hidden">*</span></td></tr>
+<tr><th>Gender:</th><td>Male<input type="radio" value="male" name="gender"><span id="f4" class="hidden">*</span></td></tr>
+<tr><th></th><td>Female<input type="radio" value="female" name="gender"></td></tr>
+<tr><th>Age:</th><td><input type="text" class="formInput" id="age" name="age"><span id="f5" class="hidden">*</span></td></tr>
+</table>
+<input id="submit" class="signUpButton" type="submit" value="Submit">
+<input id="reset" class="signUpButton" type="reset">
+</form>
+<div id="errorMsg" class="floatText" style="display:none">
+<div id="middler" class="greenText">Please double check the sign-up form to make
+sure that you have made valid entries.</div>
+<input type="button" id="okButton1" class="okButton" value="OK">
+</div>
+</body>
+</html>

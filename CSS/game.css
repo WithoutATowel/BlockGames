@@ -1,0 +1,57 @@
+hr {
+	color:sienna;
+	}
+p {
+	margin-left:20px;
+	}
+body {
+	background-image:url("../images/frame1.png");
+	background-attachment:fixed;
+	background-position:left top;
+	background-color:black;
+	background-repeat:no-repeat;
+	}
+.greenText {
+	color:lime;
+	font-family: courier new;
+	}
+#loginField {
+	position: fixed;
+	left: 325px;
+	top: 325px;
+	}
+#usenameLabel {
+	position: fixed;
+	left: 120px;
+	top: 80px;
+	font-weight: bold;
+	}
+#usename {
+	position: fixed;
+	left: 210px;
+	top: 80px;
+	}
+#scoreLabel {
+	position: fixed;
+	left: 600px;
+	top: 80px;
+	font-weight: bold;
+	}
+#score {
+	position: fixed;
+	left: 660px;
+	top: 80px;
+	}
+#bGames {
+	position: fixed;
+	left: 152.5px;
+	top: 200px;
+	}
+#centerer {
+	vertical-align: middle;
+	}
+#username { 
+	font-size: 15px; 
+	background: url(); 
+	border-style: none;
+	}

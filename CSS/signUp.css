@@ -1,0 +1,76 @@
+.hidden {
+	visibility:hidden;
+}
+.show {
+	visibility:visible;  
+	font-weight:bold; 
+}
+.floatText {
+	text-align:center;
+	background-color:black;
+	opacity:.91;
+	z-index:1;
+	height:300px;
+	width:500px;
+	position: fixed;
+	left: 173px;
+	top: 250px;
+	}
+.signUpButton {
+	border: 2px solid lime;
+	font-size: 13px;
+	font-weight:bold;
+	background-color:black;
+	width:100px;
+	height:25px;
+	color:lime;
+	font-family: courier new;
+}
+.formInput {
+	color: lime;
+	font-size: 15px; 
+	background-color: black; 
+	border-style: none;
+	border-bottom-style: solid;
+	border-color:lime;
+	border-width: 1px;
+}
+.okButton {
+	position:absolute;
+	top:48%;
+	left:42.2%;
+	font-size: 13px;
+	font-weight:bold;
+	background: url("../images/okBG.png");
+	border-style:none;
+	width:70px;
+	height:25px;
+	color:lime;
+	font-family: courier new;
+	}
+#errorMsg {
+	display:none;
+}
+#middler {
+	position:absolute;
+	top:25%;
+}
+#submit {
+	position:absolute;
+	top:415px;
+	left:340px;
+}
+#reset {
+	position:absolute;
+	top:415px;
+	left:445px;
+}
+#bGames {
+	top: 150px;
+}
+#signUpForm {
+	text-align: left;
+	position: absolute;
+	top: 250px;
+	left: 285px;
+}

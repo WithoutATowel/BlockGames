@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLOCKGAMES</title>
+<link rel="shortcut icon" type="image/png" href="http://commondatastorage.googleapis.com/mps-service/brettspencer/bgicon.png">
+<link rel="stylesheet" type="text/css" href="CSS/game.css">
+<link rel="stylesheet" type="text/css" href="CSS/gameBoard.css">
+<script type="text/javascript" src="JS/gameScripts.js"></script>
+<script type="text/javascript" src="JS/gamePage.js"></script>
+</head>
+<body>
+<p id="usenameLabel" class="greenText">USERNAME:</p>
+<p id="usename" class="greenText"></p>
+<p id="scoreLabel" class="greenText">SCORE:</p>
+<p id="score" class="greenText">30</p>
+<div id="introText" class="floatText">
+<div id="middler" class="greenText">Move numbers between squares such that the sum for each row 
+and column is the same. Click any two squares to switch their numbers. 
+Try to use as few moves as possible - each switch costs a point!</div>
+<input type="button" id="okButton1" class="okButton" value="OK">
+</div>
+<div id="winText" class="floatText" style="display:none">
+<div id="winText1" class="greenText">Congratulations, you solved the puzzle!</div>
+<input type="button" id="okButton2" class="okButton" value="OK">
+</div>
+<table id="board">
+<tr><td class="boardCell" id="id1">1</td><td class="boardCell" id="id2">2</td><td class="boardCell" id="id3">3</td></tr>
+<tr><td class="boardCell" id="id4">4</td><td class="boardCell" id="id5">5</td><td class="boardCell" id="id6">6</td></tr>
+<tr><td class="boardCell" id="id7">7</td><td class="boardCell" id="id8">8</td><td class="boardCell" id="id9">9</td></tr>
+</table>
+<p id="sum1" class="sumCell"><p>
+<p id="sum2" class="sumCell"><p>
+<p id="sum3" class="sumCell"><p>
+<p id="sum4" class="sumCell"><p>
+<p id="sum5" class="sumCell"><p>
+<p id="sum6" class="sumCell"><p>
+</body>
+</html>

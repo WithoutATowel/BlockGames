@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLOCKGAMES</title>
+<link rel="shortcut icon" type="image/png" href="http://commondatastorage.googleapis.com/mps-service/brettspencer/bgicon.png">
+<link rel="stylesheet" type="text/css" href="CSS/game.css" />
+<script type="text/javascript" src="JS/gameScripts.js">
+</script>
+</head>
+<body onload="blinker()">
+<img id="bGames" src="images/blockGames.png">
+<table id="loginField"><tr>
+<th class="greenText">Enter Name:</th>
+<td><input type="text" class="greenText" id="username" value="_" onfocus="stopBlink()" onblur="blinker()" onkeydown="submitter(evt)"></input></td>
+</tr></table>
+</body>
+</html>
